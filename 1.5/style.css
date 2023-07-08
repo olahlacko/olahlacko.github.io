@@ -1,0 +1,17 @@
+body{
+  font-family: serif;
+  width:500px;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: purple;
+}
+
+ol{
+  list-style-type: upper-roman;
+  text-decoration-line: underline; 
+}

@@ -1,0 +1,28 @@
+p {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.north {
+  background: #E67676;
+  padding: 10px 0px 10px 0px;
+}
+
+.south {
+  background: #A9E6E6;
+  padding: 10px 0px 10px 0px;
+}
+
+.box {
+  border: solid;
+  border-color: #4285f4;
+  width: 150px;
+  margin-bottom: 10px;
+  color: white;
+}

@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  display: flex;
+  height: 250px;
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.header-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  font-weight: normal;
+  font-size: 55px;
+  color: #222;
+  margin: 0 0 20px 0;
+}
+
+h2 {
+  font-family: 'Abril Fatface';
+  font-weight: normal;
+  color: #222;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left {
+  display: flex;
+  min-width: 200px;
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  min-width: 200px;
+  height: 100%;
+}
+
+.lead {
+  font-family: 'Josefin Sans';
+  font-size: 15px;
+  font-weight: 400;
+  color: #222;
+  margin: 20px 20px 0 20px;
+  line-height: 1.5;
+}
+
+blockquote {
+  background-color: rgb(64,64,64);
+  width: 600px;
+  position: relative;
+  margin: 20px auto;
+  padding: 40px 0;
+}
+
+blockquote::before{
+  font-family: 'Abril Fatface';
+  content: "\201C";
+  color:white;
+  font-size:6em;
+  position: absolute;
+  left: 0;
+  top:-25px;
+}
+
+.quote{
+  display: flex;
+  font-family: 'Abril Fatface';
+  font-weight: normal;
+  font-size: 38px;
+  color: white;
+  margin-left: 30px;
+}
+
+.title_1 {
+  font-family: 'Josefin Sans';
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin: 20px 20px 0 20px;
+  line-height: 1.5;
+}
+
+.title_2 {
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 20px;
+  line-height: 1.5;
+}
+
+.title_3 {
+  font-family: 'Merriweather';
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0 20px;
+  line-height: 1.5;
+}
+
+article {
+  font-family: 'Josefin Sans';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 20px;
+  line-height: 1.5;
+}
+
+.divider {
+  border-top: 3px solid #bbb;
+}

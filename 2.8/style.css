@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: auto;
+}
+
+.header {
+  background: aqua;
+  height: 150px;
+  flex-grow: 1;
+}
+
+.middle {
+  display: flex;
+}
+
+.left_aside {
+  background: orange;
+  height: 500px;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: red;
+  height: 500px;
+  flex-grow: 2;
+}
+
+.right_aside {
+  background: purple;
+  height: 500px;
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.footer {
+  background: blue;
+  height: 150px;
+  flex-grow: 1;
+}
+
+.box {
+  background: black;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}

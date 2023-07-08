@@ -1,0 +1,32 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+input {
+  border-style: solid;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+fieldset {
+  max-width:500px;
+  padding:16px;	
+  margin-bottom: 10px;
+}
+
+
+.button {
+  border-radius: 4px;
+}
+
+.text {
+  width: 95%;
+}
+
+.long_text {
+  width: 95%;
+  height: 150px;
+  box-sizing: border-box;
+  resize: none;
+}

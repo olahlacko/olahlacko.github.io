@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  background: purple;
+  height: 50px;
+}
+.container {
+  display: flex;
+}
+
+.button_small {
+  background: cyan;
+  height: 30px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.button_large {
+  background: cyan;
+  height: 30px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+.main {
+  flex-grow: 4;
+  background: yellow;
+  height: 500px;
+}
+
+.aside {
+  flex-grow: 1;
+  background: green;
+  height: 500px;
+}
