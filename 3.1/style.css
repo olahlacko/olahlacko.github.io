@@ -1,0 +1,24 @@
+.container {
+    font-weight:bold;
+  }
+
+.asteroid {
+    width: 150px;
+}
+
+.big {
+    color: blue;
+}
+
+.b329 {
+    font-weight: bold;
+}
+
+#b325, .b326 {
+    border: 1px solid green;
+}
+
+p {
+    background-color: yellow;
+    font-weight: normal;
+}
