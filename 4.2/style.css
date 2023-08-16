@@ -1,0 +1,32 @@
+.field {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 50px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.number p {
+    padding: 5px;
+}
+
+input {
+    margin: 0 10px 0 10px;
+}
+
+button {
+    height: 20px;
+    margin-right: 10px;
+}

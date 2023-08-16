@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .todo {
+            display: flex;
+            align-items: center;
+        }
+
+        .todo button {
+            height: 20px;
+            margin-left: 10px;
+        }
+    </style>
+    <title>
+        4.4 ToDo
+    </title>
+</head>
+<body>
+    <h1>My Simple Todo List</h1>
+    <div class="todo">
+        <p><input type="text" name="item" id="item"></p>
+        <button id="addItem">Add todo</button>
+    </div>
+    <h2>Todos:</h2>
+    <ul id="todoList">
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

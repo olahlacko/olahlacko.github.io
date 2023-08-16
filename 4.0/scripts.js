@@ -4,15 +4,15 @@ console.log(name);
 //jQuery part
 
 // read examples
-var h1Text = $("h1").text();
-console.log(h1Text);
+var h2Text = $("h2").text();
+console.log(h2Text);
 
 console.log($(".list").css("background-color"));
 
 //change text
-$("h1").text("JavaScript - modified by jQuery");
-var h1Text = $("h1").text();
-console.log(h1Text);
+$("h2").text("H2 header changed by jQuery");
+var h2Text = $("h2").text();
+console.log(h2Text);
 
 //change css
 $(".list").css("background", "lightblue");
